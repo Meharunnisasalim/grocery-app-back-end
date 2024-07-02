@@ -27,8 +27,14 @@ app.use("/api/v1/auth",userRoutes);
 app.use("/api/v1/category",categoryRoutes);
 app.use("/api/v1/product",productRoutes);
 
+// Root route
+app.get('/', (req, res) => {
+    res.send('Welcome to the Grocery Shopping API');
+  });
+
 //start the server
 
 app.listen(PORT,()=>{
     console.log(`Server is running on ${process.env.DEV_MODE} mode on port ${PORT}`);
 });
+
