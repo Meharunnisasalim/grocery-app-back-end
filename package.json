@@ -9,7 +9,7 @@
     "server": "nodemon server.js",
     "client": "npm start --prefix ./client",
     "dev": "concurrently \"npm run server\" \"npm run client\"",
-    "build": "npm run build"
+    "build": "npm run build\"node --max-old-space-size=8192 build.js\""
   },
   "keywords": [],
   "author": "Meharunnisa",
