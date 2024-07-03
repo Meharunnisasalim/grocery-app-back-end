@@ -28,7 +28,7 @@ app.use("/api/v1/category",categoryRoutes);
 app.use("/api/v1/product",productRoutes);
 
 // Root route
-app.get('/', (req, res) => {
+app.get('/api/v1', (req, res) => {
   res.send('Welcome to the Grocery Shopping API');
 });
 
