@@ -29,8 +29,8 @@ app.use("/api/v1/product",productRoutes);
 
 // Root route
 app.get('/', (req, res) => {
-    res.send('Welcome to the Grocery Shopping API');
-  });
+  res.send('Welcome to the Grocery Shopping API');
+});
 
 //start the server
 
