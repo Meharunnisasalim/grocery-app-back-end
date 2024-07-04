@@ -38,3 +38,5 @@ app.listen(PORT,()=>{
     console.log(`Server is running on ${process.env.DEV_MODE} mode on port ${PORT}`);
 });
 
+// # REACT_APP_API=http://localhost:8080
+// const API_BASE_URL =  'https://grocery-app-back-end-8.onrender.com';
