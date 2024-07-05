@@ -16,9 +16,10 @@ const PORT=process.env.PORT || 8080;
 //Connect mongodb to server
 dbConnect();
 
-
 // middlewares
-app.use(cors());
+app.use(cors({
+  origin: 'https://freshmart-reactapp-qdd6uxec4-meharunnisa-salims-projects.vercel.app',
+}));
 app.use(express.json());
 app.use(morgan('dev'))
 
