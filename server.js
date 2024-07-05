@@ -18,7 +18,7 @@ dbConnect();
 
 // middlewares
 app.use(cors({
-  origin: 'https://freshmart-reactapp-qdd6uxec4-meharunnisa-salims-projects.vercel.app',
+  origin: 'https://freshmart-reactapp-dhfip7nvn-meharunnisa-salims-projects.vercel.app',
 }));
 app.use(express.json());
 app.use(morgan('dev'))
