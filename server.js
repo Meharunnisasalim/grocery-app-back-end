@@ -17,9 +17,7 @@ const PORT=process.env.PORT || 8080;
 dbConnect();
 
 // middlewares
-app.use(cors({
-  origin: 'https://freshmart-reactapp-5501vvz5m-meharunnisa-salims-projects.vercel.app',
-}));
+app.use(cors());
 app.use(express.json());
 app.use(morgan('dev'))
 
