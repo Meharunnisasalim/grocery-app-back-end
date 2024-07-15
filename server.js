@@ -1,5 +1,4 @@
 import dotenv from "dotenv";
-//import required modules
 import express from 'express';
 import morgan from "morgan";
 import {dbConnect} from "./config/dbconfig.js";
